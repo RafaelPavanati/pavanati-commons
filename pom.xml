@@ -85,5 +85,20 @@
             </plugins>
         </pluginManagement>
     </build>
+    <profiles>
+        <profile>
+            <id>test</id>
+            <activation>
+                <property>
+                    <name>environment</name>
+                    <value>test</value>
+                </property>
+            </activation>
+            <properties>
+                <environment>test</environment>
+                <skipPageMappings>true</skipPageMappings>
+            </properties>
+        </profile>
+    </profiles>
 
 </project>
