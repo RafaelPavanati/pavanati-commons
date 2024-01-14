@@ -37,7 +37,7 @@
 
   <servers>
 <!---->
-  </servers>    <server>-->
+<!--  </servers>    <server>&ndash;&gt;-->
   <!--      <id>foo</id>-->
   <!--      <username>fu</username>-->
   <!--      <password>bar</password>-->
