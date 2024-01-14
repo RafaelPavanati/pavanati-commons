@@ -45,6 +45,6 @@ jobs:
           java-version: '17'
           distribution: 'adopt'
       - name: Publish package
-        run: mvn -B package --file pom.xml
+        run: mvn --batch-mode deploy
         env:
           MAVEN_USERNAME: ${{ secrets.GITHUB_TOKEN }}
